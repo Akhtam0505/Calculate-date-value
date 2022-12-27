@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="">
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="realOclock">
+        <span class="oclock" id="oclock">
+          <span class="hour" id="hour"></span>
+          <span class="minute" id="minute"></span>
+          <span class="second" id="second"></span>
+        </span>
+      </div>
+
+      <div class="card">
+        <div class="input-row">
+          <div class="input-wrapper">
+            <label for="Start-date">Start-date</label>
+            <input type="date" id="start-date" name="Start-date" />
+            <label for="Start-date" id="startEr"></label>
+          </div>
+          <div class="input-wrapper">
+            <label for="End-date">End-date</label>
+            <input type="date" id="end-date" name="End-date" />
+            <label for="End-date" id="endEr"></label>
+          </div>
+        </div>
+        <div class="button">
+          <button id="button">Submit</button>
+        </div>
+        <div class="output-row">
+          <div id="output">Select date to know different of dates</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
